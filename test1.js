@@ -1,4 +1,7 @@
 function addString(str){
+    if(str ==""){
+        return 0;
+    }
     let arr = str.split(",");
     let sum = 0;
     arr.forEach((item)=>{
@@ -9,4 +12,5 @@ function addString(str){
 }
 
 
-console.log(addString("3,4"))
+console.log(addString(""))
+console.log(addString("4,5"))
