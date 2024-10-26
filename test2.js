@@ -8,5 +8,5 @@ function addStringMany(str){
     return sum;
 }
 
-
+console.log(addStringMany("3,4,7,8,9"))
 console.log(addStringMany("3,4,7,8,9,9,0,10,34"))
